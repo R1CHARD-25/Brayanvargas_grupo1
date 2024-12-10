@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo_nav from '../../../public/logo3.png';
+import Logo_nav from '/logo3.png';
 import Direcciones from '../Estilo_direcciones/Estilo_direcciones.jsx';
 import Navbar from "../Navbar/Navbar.jsx";
 import Fi from "@/components/fi/FiShoppingCart.jsx";

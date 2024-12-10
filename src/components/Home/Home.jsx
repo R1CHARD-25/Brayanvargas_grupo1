@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { useSearchParams } from 'react-router-dom';
 import { getProducts } from '../../data/asyncMock';
 import ItemList from "@/components/ItemList/ItemList.jsx";
-import Logo_nav from "../../../public/pajaro.gif";
-import Logo from "../../../public/montañaspng.png";
-import name from "../../../public/name.png";
+import Logo_nav from "/pajaro.gif";
+import Logo from "/montañaspng.png";
+import name from "/name.png";
 import Loading from "../Loading/Loading";
 
 export default function Home() {
